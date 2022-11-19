@@ -46,32 +46,29 @@
                 My UX Skills
             </h1>
             <div class="flexContainer">
-                <div>
-                    <img src="" alt="">
-                    <h3>
-                        Qualitative Interviews
-                    </h3>
-                    <p>
-                        I use surveys as well as content-driven testing to get useful and meaningful statistics to back up my designs.
-                    </p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>
-                        User Research
-                    </h3>
-                    <p>
-                        By utilizing primary and secondary sources for research, I have conducted interviews and tests that inform and back up the problem being solved.
-                    </p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <h3>
-                        User Empathy
-                    </h3>
-                    <p>
-                        I am always creating for the user, not usually myself. I inform myself through user-personas and heuristic testing to best solve the problem for the user.
-                    </p>
+                <!-- Tab links -->
+                <div class="tabBar">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Qualitative Interviews')">Qualitative Interviews</button>
+                        <button class="tablinks" onclick="openCity(event, 'User Research')">User Research</button>
+                        <button class="tablinks" onclick="openCity(event, 'User Empathy')">User Empathy</button>
+                    </div>
+                    
+                    <!-- Tab content -->
+                    <div id="Qualitative Interviews" class="tabcontent">
+                        <h3>Qualitative Interviews</h3>
+                        <p>I use surveys as well as content-driven testing to get useful and meaningful statistics to back up my designs.</p>
+                    </div>
+                    
+                    <div id="User Research" class="tabcontent">
+                        <h3>User Research</h3>
+                        <p>By utilizing primary and secondary sources for research, I have conducted interviews and tests that inform and back up the problem being solved.</p>
+                    </div>
+                    
+                    <div id="User Empathy" class="tabcontent">
+                        <h3>User Empathy</h3>
+                        <p>I am always creating for the user, not usually myself. I inform myself through user-personas and heuristic testing to best solve the problem for the user.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -132,4 +129,6 @@
         </footer>
     
     </body>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </html>
